@@ -1,0 +1,17 @@
+
+# Virtual environment
+rag_env/
+.env
+
+
+# Logs and caches
+*.log
+*.sqlite3
+*.db
+.cache/
+
+# HuggingFace cache
+~/.cache/huggingface/
+
+# ChromaDB local storage
+chroma.db/

@@ -1,0 +1,16 @@
+rag-chatbot/
+├── README.md # This file
+├── requirements.txt
+├── .env.example
+├── data/ # Place your source documents here (pdf/markdown/txt)
+├── src/
+│ ├── ingest.py # Document loading, chunking, embedding ingestion
+│ ├── retriever.py # Retrieval API (search)
+│ ├── llm_client.py # Wrappers for different LLM backends (Gemini/OpenAI/HF)
+│ ├── guardrails.py # Safety checks & prompt filtering
+│ ├── prompts.py # Prompt templates & engineering helpers
+│ └── app_streamlit.py # Streamlit web app
+├── prompts/
+│ └── prompt_template.txt # Human-readable prompt template
+└── notebooks/
+└── demo_inference.ipynb # Optional demo notebook (HTML included if using notebook)
